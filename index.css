@@ -1,0 +1,227 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    /* Lora */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV */
+.nav {
+    overflow: hidden;
+    padding: 50px;
+}
+
+.home, .link {
+    color: #DB423D;
+}
+
+.home {
+    font-size: 17px;
+}
+
+.nav a {
+    color: black;
+    text-align: center;
+    font-size: 15px;    
+}
+
+.home, .nav-right {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a:hover {
+    color: #DB423D;
+}
+
+.nav-right a {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.nav, .bio {
+    letter-spacing: 0.5px;
+}
+
+/* HOME BODY */
+.bio {
+    float: right;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.intro {
+    color: #DB423D;
+    font-size: 50px;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    color: #DB423D;
+    padding: 6px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* ABOUT PAGE */
+.about  {
+    display: flex;
+    align-items: center;
+}
+
+/* .picture {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+} */
+
+img {
+    /* width: auto;
+    height: 100%;
+    margin-left: -50px; */
+
+    width: 300px;
+    padding: 0px 50px;
+    border-radius: 50%;
+}
+
+.blurb {
+    padding-right: 90px;
+    /* padding-left: 50px; */
+}
+
+/* CV */
+/* .background, .background a {
+    background-color: black;
+    color: white;
+} */
+
+.title {
+    /* margin-bottom: 50px;
+    padding-bottom: 50px; */
+    font-size: 40px;
+}
+
+li {
+    padding-bottom: 17px;
+}
+
+.resume .header p {
+    color: #DB423D;
+    font-weight: 700;
+}
+
+.resume {
+    display: flex;
+    font-size: 16px;
+}
+
+.col {
+    padding-left: 50px;
+}
+
+button {
+    background-color: #DB423D;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 430px) {
+    .bio {
+        padding-right: 20px;
+    }
+
+    .intro {
+        font-size: 40px;
+    }
+
+    .about {
+        display: inline;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .blurb {
+        padding-left: 65px;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .resume {
+        display: inline;
+        /* text-align: center; */
+    
+    }
+}
+
+
+
+/* dark red #40140F */
+/* light pink #F7EFEE */
+/* red #DB423D */
+
+
+/* .nav {
+    overflow: hidden;
+    padding: 50px;
+}
+
+.home, .link {
+    color: #DB423D;
+}
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+  
+.nav a:hover {
+    color: #DB423D;
+  }
+    
+.nav-right {
+    float: right;
+  }
+
+.nav-right a {
+    padding-left: 20px;
+} */
